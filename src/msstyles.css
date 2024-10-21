@@ -1,0 +1,121 @@
+.list-box {
+  border: 2px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-list-box {
+  width: 30%; /* Less space for User List */
+}
+
+.item-list-box {
+  width: 65%; /* More space for Items List */
+}
+
+.list-box h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.list-box h4 {
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: #555;
+}
+
+/* styles.css */
+
+.preview-box {
+  width: 70%; /* Increase this value to make the preview wider */
+  margin: 20px auto; /* Center the preview box and add some margin */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preview-box h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.preview-box table {
+  width: 100%; /* Make the table take up the full width of the preview box */
+  border-collapse: collapse;
+}
+
+.preview-box th,
+.preview-box td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.preview-box tfoot td {
+  font-weight: bold;
+}
+
+.buttonI {
+  background-color: rgba(68, 238, 105, 0.8);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  width: 50px;
+  margin-right: 15px;
+  background: url(inc.png) no-repeat;
+  background-position: top 1px center;
+}
+
+.buttonD {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  width: 50px;
+  margin-right: 15px;
+  background: url(dec.png) no-repeat;
+  background-position: top 1px center;
+}
+.buttonR {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  width: 50px;
+  margin-right: 15px;
+  background: url(dec1.png) no-repeat;
+  background-position: top 1px center;
+}

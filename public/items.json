@@ -1,0 +1,17 @@
+{
+  "TIFINS": [
+    { "name": "Idly", "price": 40 },
+    { "name": "Dosa", "price": 60 },
+    { "name": "Wada", "price": 60 }
+  ],
+  "LUNCH": [
+    { "name": "Rice", "price": 100 },
+    { "name": "Biryani", "price": 200 },
+    { "name": "Curd Rice", "price": 50 }
+  ],
+  "DRINKS": [
+    { "name": "Tea", "price": 20 },
+    { "name": "Coffee", "price": 40 },
+    { "name": "Milk", "price": 45 }
+  ]
+}
